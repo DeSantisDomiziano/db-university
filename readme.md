@@ -77,3 +77,9 @@ DESCRIBE `students` -->
 
 
 ## 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+- SHOW databases;
+- USE `91_university`;
+- SHOW tables;
+- DESCRIBE `teachers`;
+- SELECT * FROM `teachers` WHERE `phone` IS NULL ;
