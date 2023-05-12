@@ -60,7 +60,11 @@ DESCRIBE `students` -->
 
 ## 6. Selezionare tutti i corsi di laurea magistrale (38)
 
-
+- SHOW databases;
+- USE `91_university`;
+- SHOW tables;
+- DESCRIBE `degrees`;
+- SELECT * FROM `degrees` WHERE `level` = 'magistrale';
 
 
 ## 7. Da quanti dipartimenti è composta l'università? (12)
