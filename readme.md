@@ -52,8 +52,11 @@ DESCRIBE `students` -->
 
 ## 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del20/06/2020 (21)
 
-
-
+- SHOW databases;
+- USE `91_university`;
+- SHOW tables;
+- DESCRIBE `exams`;
+- SELECT * FROM `exams` WHERE `date` = '2020-06-20' AND `hour` >= '14%';
 
 ## 6. Selezionare tutti i corsi di laurea magistrale (38)
 
