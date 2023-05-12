@@ -33,7 +33,12 @@ DESCRIBE `students` -->
 
 ## 3. Selezionare tutti gli studenti che hanno più di 30 anni
 
-
+- SHOW databases;
+- USE `91_university`;
+- SHOW tables;
+- DESCRIBE `students`;
+- SELECT * FROM `students` WHERE `date_of_birth` BETWEEN '1970-01-01' AND '1993-01-01' ORDER BY `date_of_birth` ASC;
+- risultati (3502)
 
 
 ## 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea (286)
