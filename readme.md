@@ -43,7 +43,11 @@ DESCRIBE `students` -->
 
 ## 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea (286)
 
-
+- SHOW databases;
+- USE `91_university`;
+- SHOW tables;
+- DESCRIBE `courses`;
+- SELECT * FROM `courses` WHERE `period` LIKE 'I %' AND `year` = 1;
 
 
 ## 5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del20/06/2020 (21)
